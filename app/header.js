@@ -11,7 +11,7 @@ export default function Header(){
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <Link href="/">
                         {/* <h1 className="text-5xl orange_gt font-bold">FOXHILLOPS</h1> */}
-                        <Image src="/icon.png" alt="ffo" width={140} height={140} className='max-w-xs lg:max-w-5xl' />
+                        <Image src="/icon.png" alt="ffo" width={140} height={42} className='max-w-xs lg:max-w-5xl' />
                     </Link>
                     <div className="md:hidden">
                         <button
