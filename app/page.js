@@ -8,7 +8,7 @@ const MainHero = () =>(
         <Image src="/FFON.png" alt="ffo" width={400} height={200} className='lg:max-w-5xl' />
       </div>
       <ul className="list-disc text-2xl xl:text-4xl font-bold">
-        <li className="my-6">YTD 2023, there's been 190,000+ reports of Identity Theft.</li>
+        <li className="my-6">YTD 2023, there is been 190,000+ reports of Identity Theft.</li>
         <li className="my-6">YTD 2023 70% of fraud incident losses were less than $2000 dollars. 14% of incidents were more than $10,000.</li>
         <li className="my-6">Account takeovers have affected 22% of U.S. adults: average loss $12,000</li>
         <li className="my-6">Median losses for small businesses: $200,000; Average of 5% revenue lost to fraud, annually.</li>

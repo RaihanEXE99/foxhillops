@@ -10,9 +10,9 @@ const MainHero = () =>(
       <div>
         <h1 className='text-4xl xl:text-6xl font-bold text-center underline underline-offset-8 orange_gt'>CLIENT CONFIDENTIALITY</h1>
         <ol className="list-none text-xl xl:text-4xl font-bold">
-          <li className="my-6">Due to the sensitive nature of our clients' needs, as a matter of policy, we do not publicize previous clients.</li>
+          <li className="my-6">Due to the sensitive nature of our clients needs, as a matter of policy, we do not publicize previous clients.</li>
           <li className="my-6">Quite simply, we help clients with the most severe, often business critical, fraud concerns. We do not feel it is necessary to publicize which companies entrust us with those concerns.</li>
-          <li className="my-6">We are willing to do without the social proof for our clients' benefit, whether it be just a theoretical concern or not.</li>
+          <li className="my-6">We are willing to do without the social proof for our clients benefit, whether it be just a theoretical concern or not.</li>
         </ol>
       </div>
     </div>
