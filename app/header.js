@@ -58,22 +58,22 @@ export default function Header(){
                 }`}
                 >
                 <ul className="items-center text-3xl justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                    <li className="text-white">
+                    <li className="text-white" onClick={() => setNavbar(!navbar)}>
                     <Link href="/contact">
                         CONTACT US
                     </Link>
                     </li>
-                    <li className="text-white">
+                    <li className="text-white" onClick={() => setNavbar(!navbar)}>
                     <Link href="/process">
                         OUR PROCESS
                     </Link>
                     </li>
-                    <li className="text-white">
+                    <li className="text-white" onClick={() => setNavbar(!navbar)}>
                     <Link href="/price">
                     PRICE & GUARANTEE
                     </Link>
                     </li>
-                    <li className="text-white">
+                    <li className="text-white" onClick={() => setNavbar(!navbar)}>
                     <Link href="/clients">
                     CLIENTS
                     </Link>

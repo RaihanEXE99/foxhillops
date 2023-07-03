@@ -23,8 +23,8 @@ const MainHero = () =>(
         <li className="my-6">Are your internal controls able to grow with an evolving threat or is your policy outdated?</li>
       </ol>
       <h1 className='text-3xl xl:text-5xl font-bold text-center text-yellow-600 italic '>We do not sell fluff or hyperbole. We guarantee less losses.</h1>
-      <Link className="flex justify-center mt-6 " href="/"> 
-          <button class=" font-bold text-xl xl:text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-orange-500 hover:bg-red-500 duration-300">
+      <Link className="flex justify-center mt-6 mb-5 " href="/"> 
+          <button className=" font-bold text-xl xl:text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 bg-orange-500 hover:bg-red-500 duration-300">
             <h1>LOSSES PREVENTED, GUARANTEED.</h1>
             <p className='animate-pulse'>CLICK HERE TO HIRE US</p>
           </button>
