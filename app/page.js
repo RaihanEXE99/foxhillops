@@ -15,6 +15,7 @@ const MainHero = () =>(
       </ul>
     </div>
     <div>
+      
       <h1 className='text-5xl xl:text-6xl font-bold text-center underline underline-offset-8 orange_gt'>CRITICAL QUESTIONS THAT WE ANSWER</h1>
       <ol className="list-decimal text-2xl xl:text-4xl font-bold">
         <li className="my-6">Could outside party(s) cause you 6 figures in losses, or more?</li>
