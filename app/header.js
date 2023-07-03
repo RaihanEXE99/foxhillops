@@ -59,6 +59,11 @@ export default function Header(){
                 >
                 <ul className="items-center text-3xl justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                     <li className="text-white" onClick={() => setNavbar(!navbar)}>
+                    <Link href="/">
+                        HOME
+                    </Link>
+                    </li>
+                    <li className="text-white" onClick={() => setNavbar(!navbar)}>
                     <Link href="/contact">
                         CONTACT US
                     </Link>
