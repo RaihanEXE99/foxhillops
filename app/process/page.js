@@ -16,7 +16,7 @@ const MainHero = () =>(
       <div>
         <h1 className='text-4xl xl:text-6xl font-bold text-center underline underline-offset-8 orange_gt'>WHY THIS PROCESS?</h1>
         <ol className="list-none text-xl xl:text-4xl font-bold">
-          <li className="my-6">Every single customer-facing day is a new possibility for exposure. We plan for long term instead of only putting today's fires out.</li>
+          <li className="my-6">Every single customer-facing day is a new possibility for exposure. We plan for long term instead of only putting todays fires out.</li>
           <li className="my-6">Executives do not truly see things the way a motivated fraudster will, no more than a patient understands a virus; Analysts no more than a doctor does. Fraud, like a virus, evolves and mutates and prevention efforts try to catch up. We look for weaknesses the way scammers do and find them first.</li>
           <li className="my-6">Alot of fraud happens with assistance, knowingly or not, at the ground level in companies; The lowest paid employees, due to pressure, opportunity and rationalization. Pressure and rationalization cannot be fixed but we remove opportunity.</li>
         </ol>

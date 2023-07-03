@@ -9,7 +9,7 @@ const PricingCard = ({ title, description, price,perwhat,lst }) => (
     </div>
     <ul role="list" className="mb-8 space-y-4 text-left">
       {lst.map((i,e)=>{
-        return <li class="flex items-center space-x-3 " data={i}>               
+        return <li class="flex items-center space-x-3 " key={i}>               
         <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
         <span>{e}</span>
       </li>
@@ -46,7 +46,7 @@ const MainHero = () =>(
           <li className="my-6">Our services are primarily focused on finding, then fixing weaknesses to prevent losses. That is what we do.</li>
           <li className="my-6">We take the confidentiality of clients, especially regarding potential fraud exposure, as priority number one.</li>
           <li className="my-6">We take fraud prevention **very** seriously and it is already serious enough. We **never** exaggerate.</li>
-          <li className="my-6">We are not in the business of being paid to do nothing. If there is nothing we can do, we do not charge.We are not in the business of being paid to do nothing. If there is nothing we can do, we don't charge.</li>
+          <li className="my-6">We are not in the business of being paid to do nothing. If there is nothing we can do, we do not charge.We are not in the business of being paid to do nothing. If there is nothing we can do, we do not charge.</li>
           <li className="my-6">If we promise specific results and we dont deliver, we refund.</li>
         </ol>
       </div>
